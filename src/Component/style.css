@@ -1,0 +1,239 @@
+.navbar{
+  width: 80%;
+display: grid;
+  margin: auto;
+grid-template-columns: repeat(2,1fr);
+align-items: center;
+
+}
+.navbar > ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.header-title >h1{
+font-weight: 300;
+}
+
+.header-link{
+  gap:1rem;
+  padding: 0;
+
+margin-left: auto;
+}
+
+.header-link > li {
+  font-size: 2rem;
+}
+
+.layout{
+  margin-top: 4rem;
+}
+
+.layout-row{
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 80% 20%;
+
+}
+
+.layout-row.one{
+align-items: center;
+margin-bottom: 2rem;
+}
+
+.col-two.row-one{
+  width: 100%;
+ display: flex;
+  justify-content: center;
+}
+
+.layout-title{
+  margin: 0.5rem;
+color: #00ADB5;
+font-size: 1.5rem;
+}
+
+.avatar{
+  max-width: 150px;
+  max-height: 150px;
+  border: 5px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+.avatar > img{
+  max-width: 100%;
+}
+.hero-title{
+  text-align: center;
+}
+.hero-title hr{
+  width: 50%;
+  border-color: #00ADB5;
+}
+.hero-title h1{
+  font-size: 3rem;
+  font-weight: 200;
+}
+.hero-title h2{
+  font-weight: 500;
+}
+
+
+.education{
+  padding: 1.5rem;
+
+}
+.projects{
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:1rem;
+
+}
+.project{
+border:  1px solid white;
+ border-radius: 1rem;
+ padding: 0.5rem;
+}
+.project h3{
+ text-align: center;
+}
+.project img{
+ width: 100%;
+}
+
+.project .links {
+  display: flex;
+  justify-content: center;
+  gap:2rem;
+}
+.project .links > a{
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.education > p{
+  margin:  0;
+}
+.contact{
+  margin-left:0 auto;
+
+  padding: 1.5rem;
+}
+.skills{
+  
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  padding: 1.5rem;
+}
+.skills > p{
+ margin: 0;
+ border: 2px solid;
+ padding: 0.3rem;
+ border-radius: 0.5rem;
+}
+.skills > p.JavaScript {
+ border-color: #F0DC55 ;
+}
+.skills > p.React {
+ border-color:#08D9FF ;
+}
+.skills > p.Nodejs {
+ border-color:#8FC708 ;
+}
+.skills > p.CSS {
+ border-color: #2E53E7;
+}
+.skills > p.Bootstrap {
+ border-color: #8118FA ;
+}
+
+
+
+.contact > p {
+  margin: 0;
+  margin-bottom: 0.2rem;
+display: flex;
+flex-wrap:wrap ;
+align-items: center;
+gap:0.2rem
+}
+
+@media(max-width:1350px)
+{
+  .navbar{
+    width: 90%;
+  }
+  .layout-row{
+    width: 90%;
+     grid-template-columns: 75% 25%;
+  }
+  .projects{
+
+  grid-template-columns: repeat(3,1fr);
+
+}
+}
+  
+@media(max-width:920px)
+{
+.layout-row{
+  grid-template-columns: 100%;
+}
+.layout-row.one{
+  grid-template-columns: 100%;
+  /* flex-direction: column; */
+}
+
+
+.projects{
+
+  grid-template-columns: repeat(2,1fr);
+
+}
+
+}
+@media(max-width:565px)
+{
+
+  .navbar{
+    text-align: center;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+.hero-title h1{
+  font-size: 2rem;
+  font-weight: 200;
+}
+.hero-title h2{
+  font-weight: 500;
+}
+
+.projects{
+
+  grid-template-columns: repeat(1,1fr);
+
+}
+
+.skills{
+  width: 100%;
+  text-align: center;
+}
+
+.header-link > li {
+  font-size: 1.5rem;
+}
+.header-link {
+   gap:1rem;
+   margin: auto;
+}
+
+}
