@@ -26,9 +26,9 @@ const Hero = () => {
                 Contact Me
               </a>
               <a
-                href="https://raw.githubusercontent.com/AnkitPatel00/sky-portfolio/main/src/assets/Ankit%20Patel%20Resume.pdf
-"
+                href="https://raw.githubusercontent.com/AnkitPatel00/sky-portfolio/main/src/assets/Ankit%20Patel%20Resume.pdf"
                 className="btn btn-outline-secondary px-4 py-2"
+                download
               >
                 Resume
               </a>
