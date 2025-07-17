@@ -25,12 +25,14 @@ const Hero = () => {
               <a href="#contact" className="btn btn-success px-4 py-2">
                 Contact Me
               </a>
+
               <a
                 href="https://raw.githubusercontent.com/AnkitPatel00/sky-portfolio/main/src/assets/Ankit%20Patel%20Resume.pdf"
                 className="btn btn-outline-secondary px-4 py-2"
-                download
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Resume
+                View Resume
               </a>
             </div>
           </div>
