@@ -26,7 +26,7 @@ const Hero = () => {
                 Contact Me
               </a>
               <a
-                href="https://drive.google.com/uc?export=download&id=12fvSkOsIriUfxBtX_wWBwDtj9LE5ey1W
+                href="https://raw.githubusercontent.com/AnkitPatel00/sky-portfolio/main/Ankit%20Patel%20Resume.pdf
 "
                 className="btn btn-outline-secondary px-4 py-2"
               >
