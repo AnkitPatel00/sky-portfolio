@@ -1,0 +1,27 @@
+
+:root{
+  background-color: rgb(35, 33, 33);
+   padding-top: 70px;
+}
+
+.text-muted-light {
+  color: #adb5bd !important; /* Bootstrap's lighter gray */
+}
+.text-light-new {
+  color: #cfd6de !important; /* Bootstrap's lighter gray */
+}
+
+
+.project-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+
+.social-links > a {
+text-decoration: none;
+}
