@@ -28,7 +28,7 @@ const Hero = () => {
 
               <a
                 href="https://drive.google.com/file/d/12fvSkOsIriUfxBtX_wWBwDtj9LE5ey1W/view"
-                class="btn btn-success"
+                className="btn btn-outline-secondary px-4 py-2"
                 target="_blank"
                 rel="noopener noreferrer"
               >
