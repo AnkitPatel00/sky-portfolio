@@ -27,8 +27,8 @@ const Hero = () => {
               </a>
 
               <a
-                href="https://raw.githubusercontent.com/AnkitPatel00/sky-portfolio/main/src/assets/Ankit%20Patel%20Resume.pdf"
-                className="btn btn-outline-secondary px-4 py-2"
+                href="https://drive.google.com/file/d/12fvSkOsIriUfxBtX_wWBwDtj9LE5ey1W/view"
+                class="btn btn-success"
                 target="_blank"
                 rel="noopener noreferrer"
               >
