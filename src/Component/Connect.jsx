@@ -42,7 +42,7 @@ const Connect = () => {
               <p className="mb-0 social-links">
                 <a
                   className="text-muted-light "
-                  href="github.com/AnkitPatel00"
+                  href="https://github.com/AnkitPatel00"
                   target="_blank"
                 >
                   Follow on GitHub
@@ -61,7 +61,7 @@ const Connect = () => {
               <p className="mb-0 social-links">
                 <a
                   className="text-muted-light "
-                  href="linkedin.com/in/ankitpatel001/"
+                  href="https://www.linkedin.com/in/ankitpatel001/"
                   target="_blank"
                 >
                   Connect on LinkedIn
