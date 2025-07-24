@@ -82,10 +82,18 @@ const Projects = () => (
                   ))}
                 </div>
                 <div className="d-flex gap-2">
-                  <a href={project.demo} className="btn btn-dark">
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    className="btn btn-dark"
+                  >
                     <i className="bi bi-eye me-1"></i> Demo
                   </a>
-                  <a href={project.github} className="btn btn-dark">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    className="btn btn-dark"
+                  >
                     <i className="bi bi-code-slash me-1"></i> Code
                   </a>
                 </div>

@@ -25,3 +25,7 @@
 .social-links > a {
 text-decoration: none;
 }
+
+.white-nav-link a{
+color: white;
+}
