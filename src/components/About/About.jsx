@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
@@ -22,8 +21,8 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-  About <strong className="purple">Me</strong>
-</h1>
+              About <strong className="purple">Me</strong>
+            </h1>
             <Aboutcard />
           </Col>
           <Col
