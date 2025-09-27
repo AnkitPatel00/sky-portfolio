@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import anvayaCRM from "../../Assets/Projects/anvayaCRM.png";
-import clothStore from "../../Assets/Projects/ClothStore.png";
-import workasana from "../../Assets/Projects/workasana.png";
+import anvayaCRM from "../../assets/Projects/anvayaCRM.png";
+import clothStore from "../../assets/Projects/ClothStore.png";
+import workasana from "../../assets/Projects/workasana.png";
 
 function Projects() {
   return (
@@ -47,10 +47,9 @@ function Projects() {
               title="E-Commerce ClothStore App "
               description="A fully responsive online clothing store enabling users to browse, add to cart, and checkout with ease. Built with React and Node.js, featuring REST API integration and secure JWT authentication."
               ghLink="https://github.com/AnkitPatel00/Rolex-Mj-Pr-Fr"
-              demoLink="https://clothstoreapp.vercel.app/"              
+              demoLink="https://clothstoreapp.vercel.app/"
             />
           </Col>
-         
         </Row>
       </Container>
     </Container>
