@@ -41,10 +41,7 @@ function Home2() {
               </i>{" "}
               along with modern tools like{" "}
               <i>
-                <b className="purple">
-                  Next.js, REST APIs, and JWT Authentication
-                </b>
-                .
+                <b className="purple">REST APIs, and JWT Authentication</b>.
               </i>
               <br />
               <br />
